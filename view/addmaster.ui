@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addmaster</class>
+ <widget class="QDialog" name="addmaster">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>398</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>398</width>
+    <height>182</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>398</width>
+    <height>182</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nouveau dresseur</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ressources.qrc">
+    <normaloff>:/Icones/ressources/creer.png</normaloff>:/Icones/ressources/creer.png</iconset>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="masterPreview">
+     <item>
+      <widget class="QLabel" name="masterIcon">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Avatar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="masterName">
+       <property name="text">
+        <string>Sacha</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="end">
+     <item>
+      <widget class="QPushButton" name="masterCreate">
+       <property name="text">
+        <string>Nouveau dresseur</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="userInput">
+     <item>
+      <widget class="QLabel" name="nameLabel">
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="masterNameUser">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Sacha</string>
+       </property>
+       <property name="maxLength">
+        <number>26</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="iconLabel">
+       <property name="text">
+        <string>Avatar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="masterIconUser">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>sacha.png</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ressources.qrc">
+          <normaloff>:/Avatars/ressources/sacha.png</normaloff>:/Avatars/ressources/sacha.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>pierre.png</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ressources.qrc">
+          <normaloff>:/Avatars/ressources/pierre.png</normaloff>:/Avatars/ressources/pierre.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>orelsan.png</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ressources.qrc">
+          <normaloff>:/Avatars/ressources/orelsan.png</normaloff>:/Avatars/ressources/orelsan.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ondine.png</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ressources.qrc">
+          <normaloff>:/Avatars/ressources/ondine.png</normaloff>:/Avatars/ressources/ondine.png</iconset>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

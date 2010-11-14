@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addteam</class>
+ <widget class="QDialog" name="addteam">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nouvelle equipe</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ressources.qrc">
+    <normaloff>:/Icones/ressources/creer.png</normaloff>:/Icones/ressources/creer.png</iconset>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QListWidget" name="masterList">
+        <property name="uniformItemSizes">
+         <bool>false</bool>
+        </property>
+        <property name="currentRow">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="pokemonList">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Liste des pokémons&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::MultiSelection</enum>
+        </property>
+        <property name="currentRow">
+         <number>-1</number>
+        </property>
+        <property name="sortingEnabled">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>Salameche</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/4.gif</normaloff>:/Pokemons/ressources/4.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pikachu</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/25.gif</normaloff>:/Pokemons/ressources/25.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hericendre</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/155.gif</normaloff>:/Pokemons/ressources/155.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Carapuce</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/7.gif</normaloff>:/Pokemons/ressources/7.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ronflex</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/143.gif</normaloff>:/Pokemons/ressources/143.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rattatac</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/20.gif</normaloff>:/Pokemons/ressources/20.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Piafabec</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/21.gif</normaloff>:/Pokemons/ressources/21.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arbok</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/24.gif</normaloff>:/Pokemons/ressources/24.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sablaireau</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/28.gif</normaloff>:/Pokemons/ressources/28.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nidorino</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/33.gif</normaloff>:/Pokemons/ressources/33.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Groupix</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/37.gif</normaloff>:/Pokemons/ressources/37.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rafflesia</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/45.gif</normaloff>:/Pokemons/ressources/45.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aeromite</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/49.gif</normaloff>:/Pokemons/ressources/49.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Colossinge</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/57.gif</normaloff>:/Pokemons/ressources/57.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ptitard</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/60.gif</normaloff>:/Pokemons/ressources/60.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Machoc</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/66.gif</normaloff>:/Pokemons/ressources/66.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tentacool</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/72.gif</normaloff>:/Pokemons/ressources/72.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grolem</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/76.gif</normaloff>:/Pokemons/ressources/76.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Onix</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/95.gif</normaloff>:/Pokemons/ressources/95.gif</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Otaria</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ressources.qrc">
+           <normaloff>:/Pokemons/ressources/86.gif</normaloff>:/Pokemons/ressources/86.gif</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teamCreate">
+      <property name="text">
+       <string>Nouvelle equipe</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
